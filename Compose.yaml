@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  rapids-notebooks:
+    image: rapidsai/notebooks:25.12a-cuda12.0-py3.12
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - capabilities: ["gpu"]
+    shm_size: 1g
+    ulimits:
+      memlock: -1
+      stack: 67108864
+    ports:
+      - "8888:8888"
+      - "8787:8787"
+      - "8786:8786"
+    stdin_open: true
+    tty: true
+    restart: "no"
+    pull_policy: always
