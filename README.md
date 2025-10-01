@@ -10,3 +10,5 @@
 
 - [YouTube Channel](https://www.youtube.com/@rapidsai2490)
 - [Community Notebooks](https://github.com/rapidsai-community/notebooks-contrib)
+
+- [Plotly Dash Tutorial](https://www.youtube.com/watch?v=Ma8tS4p27JI&list=PLH6mU1kedUy8fCzkTTJlwsf2EnV_UvOV-)

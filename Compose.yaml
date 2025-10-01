@@ -16,6 +16,7 @@ services:
       - "8888:8888"
       - "8787:8787"
       - "8786:8786"
+      - "4050:4050"
     stdin_open: true
     tty: true
     restart: "no"
